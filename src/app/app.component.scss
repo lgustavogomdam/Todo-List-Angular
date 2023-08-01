@@ -1,0 +1,8 @@
+@import '../dist/variaveis.scss';
+
+//Classe
+.container{
+    width: 700px;
+    margin: 50px auto;
+    background-color: $secondary-color;
+}
