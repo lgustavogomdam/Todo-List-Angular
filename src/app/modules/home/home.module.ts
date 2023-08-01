@@ -4,6 +4,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { TodoListComponent } from './components/todo-list/todo-list.component';
 import { TodoAddInListComponent } from './components/todo-add-in-list/todo-add-in-list.component';
 import { DeleteAllComponent } from './components/delete-all/delete-all.component';
+import { FormsModule } from '@angular/forms';
+
 
 
 
@@ -15,7 +17,8 @@ import { DeleteAllComponent } from './components/delete-all/delete-all.component
     DeleteAllComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     HeaderComponent,

@@ -1,0 +1,59 @@
+@import '../../../../../dist/variaveis.scss';
+
+section{
+    width: 100%;
+    min-height: 250px;
+    background-color: $secondary-color;
+    border-width: 5px;
+    border-color: $tertiary-background-color;
+
+    &.loading{
+        background-image: url("../../../../../assets/img/icons8-lista-de-tarefas-100.png");
+        background-repeat: no-repeat;
+        background-position: center 45%;
+      }
+    
+      ul{
+        padding: 20px;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 10px;
+    
+        li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+        
+            input{
+                &[type="checkbox"]{
+                    width: 10%;
+                    padding: 0;
+                    margin: 0;
+                    border-color:rgb(146, 0, 186);
+                    border-width: 5px;
+                    border-radius: 5px;
+
+                }
+                &[type="text"]{
+                    width: 80%;
+                    padding: 5px 10px;
+                    border: none;
+                    border-radius: 10px;
+            
+                    font-size: 16px;
+                    color: $secondary-text-color;
+                    &.checked{
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        
+            button{
+                width: 10%;
+                background: none;
+                border: none;
+            }
+        }   
+    }
+}

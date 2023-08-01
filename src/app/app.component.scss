@@ -3,6 +3,18 @@
 //Classe
 .container{
     width: 700px;
-    margin: 50px auto;
-    background-color: $secondary-color;
+    height: 50vh;
+    min-height: 250px;
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    
+}
+
+.div-header{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
 }

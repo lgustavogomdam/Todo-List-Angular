@@ -1,12 +1,13 @@
 $primary-color: #b54ed4;
 $secondary-color: #d6d5f2;
 $tertiary-color: #FFFFFF;
+$quaternary-color: #ba7bcd;
 
 $primary-background-color: #E3E9FF;
 $secondary-background-color: $tertiary-color;
 $tertiary-background-color: $primary-color;
 
-$primary-text-color: $secondary-color;
-$secondary-text-color: $tertiary-color;
+$primary-text-color: $tertiary-color;
+$secondary-text-color: $quaternary-color;
 
 $danger-color: #FF002E;
